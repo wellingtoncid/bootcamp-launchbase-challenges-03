@@ -1,0 +1,42 @@
+.courses {
+    max-width: 500px;
+    margin: 40px auto;
+}
+
+.course {
+    height: 450px;
+    background-color: #00000099;
+    text-align: center;
+    border-radius: 50px 0;
+    border: 2px solid #000;
+}
+
+.course_image-container {
+    margin: 40px auto;
+    padding: 15px;
+}
+
+.course_content {
+    width: 450px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.course_description {
+    font-size: 16px;
+}
+
+.course_info {
+    text-decoration: none;
+    color: chartreuse;
+}
+
+.course_price { 
+    margin: 20px auto;
+}
+
+.redirect a {
+    text-decoration: none;
+    color: chartreuse;
+}

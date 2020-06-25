@@ -1,0 +1,32 @@
+{% extends 'layouts.njk' %}
+
+{% block head%}
+    <title>{{item.title}} Rocketseat</title>
+    <link rel="stylesheet" href="/course.css">
+{% endblock %}
+
+{% block content %}
+
+        <section class="courses">
+            <div class="course" id="{{item.course}}">
+                <div class="course_image-container">
+                    <img src="{{item.img_url}}" alt="Image of {{item.title}}">
+                </div>
+                <div class="course_content">
+                    <p>{{item.title}}</p>
+                </div>
+                <div class="course_description">
+                    <p>{{item.description}}</p>
+                </div>
+                <div class="course_info">
+                    <p>{{item.modules}}</p>
+                    <p class="course_price">{{item.price}}</p>
+                </div>
+                <div class="redirect">
+                    <p><a href="{{item.url_course}}" target="_blank">Confere lá!</a></p>
+                </div>
+
+            </div>
+        </section>
+
+{% endblock %}

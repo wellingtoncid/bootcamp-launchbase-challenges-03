@@ -32,19 +32,19 @@
 <!-- ADJUSTMENT -->
   
 <p>
-  <img alt="first-server" src=""></img>
+  <img alt="first-server" src="/public/assets/first-server.png"></img>
 </p>
 
 - Nunjucks files and dynamic data
 
 <p>
-  <img alt="njk-data" src=""></img>
+  <img alt="njk-data" src="/public/assets/njk-data.png"></img>
 </p>
 
 - Course description page
 
 <p>
-  <img alt="course-page" src=""></img>
+  <img alt="course-page" src="/public/assets/course-page.png"></img>
 </p>
 
 - Refactoring Foodfy
